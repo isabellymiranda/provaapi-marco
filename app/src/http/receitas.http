@@ -1,0 +1,32 @@
+@baseUrl = COLOCAR O SEU LINK
+
+###
+GET {{baseUrl}}/receitas
+
+###
+GET {{baseUrl}}/receitas/1
+
+###
+POST {{baseUrl}}/receitas
+Content-Type: application/json
+
+{
+    "nome": "Bolo de Chocolate",
+    "instrucoes": "Misture todos os ingredientes e asse por 30 minutos.",
+    "categoria": {"id": 1},
+    "ingrediente": {"id": 1}
+}
+
+###
+PUT {{baseUrl}}/receitas/1
+Content-Type: application/json
+
+{
+    "nome": "Bolo de Cenoura",
+    "instrucoes": "Misture todos os ingredientes e asse por 45 minutos.",
+    "categoria": {"id": 1},
+    "ingrediente": {"id": 2}
+}
+
+###
+DELETE {{baseUrl}}/receitas/1

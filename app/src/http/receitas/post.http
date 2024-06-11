@@ -1,0 +1,9 @@
+POST          COLOCAR O SEU LINK/receitas
+Content-Type: application/json
+
+{
+    "nome": "Bolo de Chocolate",
+    "instrucoes": "Misture todos os ingredientes e asse por 30 minutos.",
+    "categoria": {"id": 1},
+    "ingrediente": {"id": 1}
+}
