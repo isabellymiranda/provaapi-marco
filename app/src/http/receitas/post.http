@@ -1,4 +1,4 @@
-POST          COLOCAR O SEU LINK/receitas
+POST  https://8080-isabellymir-provaapimar-xai4i69xpyw.ws-us114.gitpod.io/receitas
 Content-Type: application/json
 
 {

@@ -1,4 +1,4 @@
-@baseUrl = COLOCAR O SEU LINK
+@baseUrl = https://8080-isabellymir-provaapimar-xai4i69xpyw.ws-us114.gitpod.io
 
 ###
 GET {{baseUrl}}/ingredientes
