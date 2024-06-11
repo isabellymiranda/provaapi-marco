@@ -1,9 +1,7 @@
 package application.repository;
 
 import org.springframework.data.repository.CrudRepository;
+import application.model.Receita;
 
-import application.model.Usuario;
-
-public interface UsuarioRepository extends CrudRepository<Usuario, Long> {
-    public Usuario findByNomeDeUsuario(String nomeDeUsuario);
+public interface ReceitaRepository extends CrudRepository<Receita, Long> {
 }
